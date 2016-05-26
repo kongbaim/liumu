@@ -15,6 +15,7 @@
 		1D2DB50D1CF6C14700057334 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D2DB50B1CF6C14700057334 /* LaunchScreen.storyboard */; };
 		1D2DB5181CF6C14800057334 /* test1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2DB5171CF6C14800057334 /* test1Tests.m */; };
 		1D2DB5231CF6C14800057334 /* test1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2DB5221CF6C14800057334 /* test1UITests.m */; };
+		1D2DB5321CF6C83100057334 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2DB5311CF6C83100057334 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1D2DB51E1CF6C14800057334 /* test1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D2DB5221CF6C14800057334 /* test1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test1UITests.m; sourceTree = "<group>"; };
 		1D2DB5241CF6C14800057334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D2DB5301CF6C83000057334 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		1D2DB5311CF6C83100057334 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1D2DB5011CF6C14700057334 /* AppDelegate.m */,
 				1D2DB5031CF6C14700057334 /* ViewController.h */,
 				1D2DB5041CF6C14700057334 /* ViewController.m */,
+				1D2DB5301CF6C83000057334 /* Student.h */,
+				1D2DB5311CF6C83100057334 /* Student.m */,
 				1D2DB5061CF6C14700057334 /* Main.storyboard */,
 				1D2DB5091CF6C14700057334 /* Assets.xcassets */,
 				1D2DB50B1CF6C14700057334 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				1D2DB5051CF6C14700057334 /* ViewController.m in Sources */,
 				1D2DB5021CF6C14700057334 /* AppDelegate.m in Sources */,
 				1D2DB4FF1CF6C14700057334 /* main.m in Sources */,
+				1D2DB5321CF6C83100057334 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

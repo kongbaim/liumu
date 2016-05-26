@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Student.h"
 @interface ViewController : UIViewController
 
-
+@property (nonatomic ,strong) Student *stu;
 @end
 
