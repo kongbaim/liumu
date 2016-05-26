@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
+    self.stu = [[Student alloc] init];
+    self.stu.name =@"刘木";
+    NSLog(@"%@",self.stu.name);
 }
 
 - (void)didReceiveMemoryWarning {
