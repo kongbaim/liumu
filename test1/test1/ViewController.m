@@ -20,6 +20,7 @@
     self.stu = [[Student alloc] init];
     self.stu.name =@"刘木";
     NSLog(@"%@",self.stu.name);
+    NSLog(@"帅帅的");
 }
 
 - (void)didReceiveMemoryWarning {
