@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+-(void)go;
 @end
 
 @implementation ViewController
@@ -21,8 +21,12 @@
     self.stu.name =@"刘木";
     NSLog(@"%@",self.stu.name);
     NSLog(@"帅帅的");
+    [self go];
 }
-
+-(void)go
+{
+    NSLog(@"出去玩");
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
