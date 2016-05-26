@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor colorWithRed:0.458 green:0.876 blue:1.000 alpha:1.000];
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    btn.backgroundColor = [UIColor colorWithRed:1.000 green:0.908 blue:0.609 alpha:1.000];
 }
 
 - (void)didReceiveMemoryWarning {
